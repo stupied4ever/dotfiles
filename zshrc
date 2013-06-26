@@ -1,3 +1,6 @@
+export LANG="en_US.UTF-8"
+# DO NOT EDIT BELOW THIS LINE
+
 # load our own completion functions
 fpath=(~/.zsh/completion $fpath)
 
