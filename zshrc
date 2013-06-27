@@ -1,4 +1,7 @@
 export LANG="en_US.UTF-8"
+
+export TERM="screen-256color"
+
 # DO NOT EDIT BELOW THIS LINE
 
 # load our own completion functions
@@ -71,3 +74,7 @@ setopt CORRECT CORRECT_ALL
 
 # Enable extended globbing
 setopt EXTENDED_GLOB
+
+if [ -e "$HOME/.zshrc.local" ]; then
+  source "$HOME/.zshrc.local"
+fi
