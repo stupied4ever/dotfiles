@@ -1,6 +1,7 @@
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jeetsukumaran/vim-buffergator'
+Bundle 'godlygeek/tabular'
 
 let g:buffergator_viewport_split_policy = "T"
 
@@ -148,12 +149,10 @@ nnoremap ; :
 
 " tabular
 let mapleader=','
-if exists(":Tabularize")
-  nmap <Leader>a= :Tabularize /=<CR>
-  vmap <Leader>a= :Tabularize /=<CR>
-  nmap <Leader>a: :Tabularize /:\zs<CR>
-  vmap <Leader>a: :Tabularize /:\zs<CR>
-endif
+nmap <Leader>a= :Tab /=<CR>
+vmap <Leader>a= :Tab /=<CR>
+nmap <Leader>a: :Tab /:\zs<CR>
+vmap <Leader>a: :Tab /:\zs<CR>
 
 
 " Fix common typos like :Q or :W (https://github.com/leafac/dotfiles/blob/master/vim/files/config/general/mappings.vim)
