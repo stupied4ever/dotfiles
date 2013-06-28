@@ -130,7 +130,7 @@ filetype plugin on    " Enable filetype-specific plugins
 " Copy to clipboard
 set clipboard=unnamed
 
-" Gambis para regostradores funcionarem no mac
+" Gambis para registradores funcionarem no mac
 noremap ä "a
 noremap ë "e
 noremap ü "u
@@ -167,11 +167,12 @@ command! -bang Q q<bang>
 command! -bang QA qa<bang>
 command! -bang Qa qa<bang>
 
-" Yank from the cursor to the end of the line, to be consistent with C and D (https://github.com/leafac/dotfiles/blob/master/vim/files/config/general/mappings.vim)
+" Yank from the cursor to the end of the line
+" (https://github.com/leafac/dotfiles/blob/master/vim/files/config/general/mappings.vim)
 
 nnoremap Y y$
 
 " Make pasting in visual-mode sane, by not replacing the register content with
-" was erased:w
+" was erased
 
 vnoremap p pgvy
