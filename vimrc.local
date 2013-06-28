@@ -1,5 +1,8 @@
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
+Bundle 'jeetsukumaran/vim-buffergator'
+
+let g:buffergator_viewport_split_policy = "T"
 
 set background=dark
 colorscheme solarized
