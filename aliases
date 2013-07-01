@@ -33,3 +33,6 @@ alias m="migrate"
 alias rk="rake"
 alias s="rspec"
 alias z="zeus"
+
+# Vim with +clipboard
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
