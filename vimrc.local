@@ -2,6 +2,12 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'godlygeek/tabular'
+Bundle 'benmills/vimux'
+
+" set leader
+let mapleader=','
+
+source ~/.vimrc.vimux.local
 
 let g:buffergator_viewport_split_policy = "T"
 
@@ -148,7 +154,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 nnoremap ; :
 
 " tabular
-let mapleader=','
 nmap <Leader>a= :Tab /=<CR>
 vmap <Leader>a= :Tab /=<CR>
 nmap <Leader>a: :Tab /:\zs<CR>
