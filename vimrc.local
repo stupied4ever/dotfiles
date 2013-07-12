@@ -8,6 +8,9 @@ Bundle 'kien/ctrlp.vim'
 " control p.
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
+" after a yank keep in the end of selection
+vnoremap y ygv<esc>
+
 " set leader
 let mapleader=','
 
