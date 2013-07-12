@@ -8,7 +8,6 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'godlygeek/tabular'
 Bundle 'benmills/vimux'
-Bundle 'kien/ctrlp.vim'
 
 Bundle "SirVer/ultisnips"
 Bundle "leafac/vim-custom-snippets"
