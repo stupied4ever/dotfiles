@@ -3,6 +3,10 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'godlygeek/tabular'
 Bundle 'benmills/vimux'
+Bundle 'kien/ctrlp.vim'
+
+" control p.
+set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 " set leader
 let mapleader=','
