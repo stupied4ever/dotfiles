@@ -1,9 +1,24 @@
+" Make vundle behave well with ftdetect
+" https://bugs.launchpad.net/ultisnips/+bug/989905
+"
+filetype off
+
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'scrooloose/nerdtree'
 Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'godlygeek/tabular'
 Bundle 'benmills/vimux'
 Bundle 'kien/ctrlp.vim'
+
+Bundle "SirVer/ultisnips"
+Bundle "leafac/vim-custom-snippets"
+
+
+" Make vundle behave well with ftdetect
+" https://bugs.launchpad.net/ultisnips/+bug/989905
+"
+filetype plugin indent on
+
 
 " control p.
 set runtimepath^=~/.vim/bundle/ctrlp.vim
