@@ -12,8 +12,5 @@ vendor/bundler_gems
 vim/.netrwhist
 zeus.json
 
-.env
-.env.test
 .rspec
-mongoid.yml
 tmp
