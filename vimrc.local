@@ -9,9 +9,9 @@ Bundle 'jeetsukumaran/vim-buffergator'
 Bundle 'godlygeek/tabular'
 Bundle 'benmills/vimux'
 
-Bundle "SirVer/ultisnips"
-Bundle "leafac/vim-custom-snippets"
-
+Bundle 'SirVer/ultisnips'
+Bundle 'leafac/vim-custom-snippets'
+Bundle 'mileszs/ack.vim'
 
 " Make vundle behave well with ftdetect
 " https://bugs.launchpad.net/ultisnips/+bug/989905
