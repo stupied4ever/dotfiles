@@ -2,18 +2,14 @@
 let mapleader=','
 
 source ~/.vim/config/general/colors.vim
-
 source ~/.vim/config/general/maps.vim
-
-source ~/.vim/config/plugins/ctrlp.vim
-
 source ~/.vim/config/general/copypaste.vim
 
+source ~/.vim/config/plugins/ctrlp.vim
 source ~/.vim/config/plugins/tabular.vim
+source ~/.vim/config/plugins/vim-buffergator.vim
 
 source ~/.vimrc.vimux.local
-
-let g:buffergator_viewport_split_policy = "T"
 
 autocmd vimenter * if !argc() | NERDTree | endif
 " Turn off vi compatibility
