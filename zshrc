@@ -5,22 +5,22 @@ source ~/.zsh/config/.theme
 source ~/zsh/config/ps1
 
 # Editor
-source ~/.zsh/config/.editor
+source ~/.zsh/config/editor
 
 # Aliases
-source ~/.zsh/config/.aliases
+source ~/.zsh/config/aliases
 
 # Completions
-source ~/.zsh/config/.completions
+source ~/.zsh/config/completions
 
 # Functions
-source ~/.zsh/config/.functions
+source ~/.zsh/config/functions
 
 # Key Binds
-source ~/.zsh/config/.keybinds
+source ~/.zsh/config/keybinds
 
 # Plugins
-source ~/.zsh/config/.plugins
+source ~/.zsh/config/plugins
 
 export LANG="en_US.UTF-8"
 
