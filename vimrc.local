@@ -1,6 +1,8 @@
 " set leader
 let mapleader=','
 
+source ~/.vim/config/general/maps.vim
+
 source ~/.vim/config/plugins/ctrlp.vim
 
 source ~/.vim/config/general/copypaste.vim
@@ -13,11 +15,6 @@ let g:buffergator_viewport_split_policy = "T"
 
 set background=dark
 colorscheme solarized
-
-nnoremap <Left> h
-nnoremap <Right> l
-nnoremap <Up> gk
-nnoremap <Down> gj
 
 autocmd vimenter * if !argc() | NERDTree | endif
 " Turn off vi compatibility
