@@ -1,0 +1,5 @@
+# Screen must be 256 colors
+export TERM="screen-256color"
+
+# Theme
+ZSH_THEME="stupied4ever"

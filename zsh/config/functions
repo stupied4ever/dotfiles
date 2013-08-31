@@ -1,0 +1,5 @@
+# Load thoughtbot functions
+# https://github.com/thoughtbot/dotfiles
+for function in ~/.zsh/functions/*; do
+  source $function
+done

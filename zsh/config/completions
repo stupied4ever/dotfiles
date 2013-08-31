@@ -1,0 +1,7 @@
+# Load thoughtbot completion functions
+# https://github.com/thoughtbot/dotfiles
+fpath=(~/.zsh/completion $fpath)
+
+# completion
+autoload -U compinit
+compinit
