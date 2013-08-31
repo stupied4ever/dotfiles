@@ -1,3 +1,6 @@
+" auto remove Trailing spaces
+autocmd BufWritePre * :%s/\s\+$//e
+
 " Autoindent
 set autoindent
 
