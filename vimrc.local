@@ -4,6 +4,7 @@ let mapleader=','
 source ~/.vim/config/general/colors.vim
 source ~/.vim/config/general/maps.vim
 source ~/.vim/config/general/copypaste.vim
+source ~/.vim/config/general/indentation.vim
 
 source ~/.vim/config/plugins/ctrlp.vim
 source ~/.vim/config/plugins/tabular.vim
@@ -16,10 +17,6 @@ autocmd vimenter * if !argc() | NERDTree | endif
 set nocompatible
 
 syntax enable
-set background=dark
-colorscheme solarized
-
-set autoindent
 
 " Show line numbers
 
@@ -69,16 +66,6 @@ set listchars=tab:»\ ,trail:·
 " Show ruler on column 80
 
 set colorcolumn=80
-
-" Default spaces
-
-set ts=2 sts=2 sw=2 expandtab
-
-" Spaces for filetypes
-
-autocmd FileType makefile setlocal sts=4 sts=4 sw=4 noexpandtab
-autocmd FileType markdown setlocal sts=4 sts=4 sw=4 expandtab
-autocmd FileType python setlocal sts=4 sts=4 sw=4 expandtab
 
 " Auto-open if Vim is called without parameters
 
