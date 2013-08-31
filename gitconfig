@@ -18,5 +18,5 @@
   excludesfile = ~/.gitignore
   autocrlf = input
 [user]
-	name = Rafael da Silva Almeida
-	email = eusou@rafaelalmeida.net
+  name = Rafael da Silva Almeida
+  email = eusou@rafaelalmeida.net
