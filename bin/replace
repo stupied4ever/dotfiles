@@ -2,7 +2,7 @@
 #
 # Find and replace by a given list of files.
 #
-# replace foo bar **/*.rb
+# $ replace foo bar **/*.rb
 
 find_this=$1
 shift
