@@ -1,9 +1,11 @@
+" set leader
+let mapleader=','
+
 source ~/.vim/config/plugins/ctrlp.vim
 
 source ~/.vim/config/general/copypaste.vim
 
-" set leader
-let mapleader=','
+source ~/.vim/config/plugins/tabular.vim
 
 source ~/.vimrc.vimux.local
 
@@ -148,11 +150,6 @@ autocmd BufWritePre * :%s/\s\+$//e
 " Map to avoid hold shift to every command
 nnoremap ; :
 
-" tabular
-nmap <Leader>a= :Tab /=<CR>
-vmap <Leader>a= :Tab /=<CR>
-nmap <Leader>a: :Tab /:\zs<CR>
-vmap <Leader>a: :Tab /:\zs<CR>
 
 
 " Fix common typos like :Q or :W (https://github.com/leafac/dotfiles/blob/master/vim/files/config/general/mappings.vim)
