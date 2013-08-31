@@ -162,13 +162,3 @@ command! -bang WA wa<bang>
 command! -bang Q q<bang>
 command! -bang QA qa<bang>
 command! -bang Qa qa<bang>
-
-" Yank from the cursor to the end of the line
-" (https://github.com/leafac/dotfiles/blob/master/vim/files/config/general/mappings.vim)
-
-nnoremap Y y$
-
-" Make pasting in visual-mode sane, by not replacing the register content with
-" was erased
-
-vnoremap p pgvy
