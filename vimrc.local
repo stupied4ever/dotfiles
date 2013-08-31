@@ -19,9 +19,6 @@ set nocompatible
 " Auto-open if Vim is called without parameters
 autocmd vimenter * if !argc() | NERDTree | endif
 
-" Shortcuts
-nnoremap <C-n> :NERDTreeToggle<cr>
-vnoremap <C-n> :NERDTreeToggle<cr>
 set guifont=Monaco:h16
 
 " Backup is always nice
