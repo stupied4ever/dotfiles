@@ -28,13 +28,9 @@ What's in it?
 
 [vim](http://www.vim.org/) configuration:
 
-ATTENTION:
-
-As I am using MacOS I needed to install a vim with +clipboard, so i created
-one alias to vim='/Applications/MacVim.app/Contents/MacOS/Vim'
-If its not useful to you, feel free to remove in zsh/config/aliases
-
-
+* ATTENTION: As I am using MacOS I needed to install a vim with +clipboard, so
+  I created one alias to vim='/Applications/MacVim.app/Contents/MacOS/Vim' If
+  its not useful to you, feel free to remove in zsh/config/aliases.
 * [Ctrl-P](https://github.com/kien/ctrlp.vim) for fuzzy file/buffer/tag finding.
 * [Rails.vim](https://github.com/tpope/vim-rails) for enhanced navigation of
   Rails file structure via `gf` and `:A` (alternate), `:Rextract` partials,
