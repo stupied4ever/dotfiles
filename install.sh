@@ -33,3 +33,5 @@ for name in *; do
     fi
   fi
 done
+
+vim +BundleInstall +qa! && clear && echo "Done! :)"
