@@ -1,8 +1,8 @@
 # Theme
-source ~/.zsh/config/.theme
+source ~/.zsh/config/theme
 
 # PS1
-source ~/zsh/config/ps1
+source ~/.zsh/config/ps1
 
 # Editor
 source ~/.zsh/config/editor
