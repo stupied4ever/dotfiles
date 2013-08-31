@@ -10,6 +10,9 @@ nnoremap <Down> gj
 " Map to avoid hold shift to every command
 nnoremap ; :
 
+" Move to alternatefile, faster nem control+6
+nnoremap <space><space> <c-^>
+
 " Fix common typos like :Q or :W
 " (https://github.com/leafac/dotfiles/blob/master/vim/files/config/general/mappings.vim)
 command! -bang -nargs=* -complete=file E e<bang> <args>
