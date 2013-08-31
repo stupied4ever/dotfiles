@@ -1,5 +1,4 @@
-" control p.
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+source ~/.vim/config/plugins/ctrlp.vim
 
 " after a yank keep in the end of selection
 vnoremap y ygv<esc>
