@@ -1,6 +1,9 @@
 " Autoindent
 set autoindent
 
+" Turn on smartindentation
+set smartindent
+
 " Default spaces
 set ts=2 sts=2 sw=2 expandtab
 

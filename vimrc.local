@@ -24,19 +24,14 @@ autocmd vimenter * if !argc() | NERDTree | endif
 set backup
 
 " Undo available even after buffer close
-
 set undofile
 
 " Maximum number of changes that can be undone
-
 set undolevels=1000
 
 " Maximum number lines to save for undo on a buffer reload
-
 set undoreload=10000
 
-
-set smartindent
 
 " show commands
 set showcmd
