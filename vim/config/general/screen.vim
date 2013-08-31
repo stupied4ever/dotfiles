@@ -1,3 +1,6 @@
+" GUI font
+set guifont=Monaco:h16
+
 " Turn syntax on
 syntax enable
 
