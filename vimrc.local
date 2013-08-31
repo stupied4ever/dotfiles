@@ -55,10 +55,6 @@ silent execute '!mkdir -p ~/.vimundos'
 
 set smartindent
 
-" load indent file for the current filetype
-filetype indent on    " Enable filetype-specific indenting
-filetype plugin on    " Enable filetype-specific plugins
-
 " show commands
 set showcmd
 
