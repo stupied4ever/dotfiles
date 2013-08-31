@@ -1,3 +1,15 @@
+" Backup is always nice
+set backup
+
+" Undo available even after buffer close
+set undofile
+
+" Maximum number of changes that can be undone
+set undolevels=1000
+
+" Maximum number lines to save for undo on a buffer reload
+set undoreload=10000
+
 " folders to store temp files and avoid cluttering the current directory
 set backupdir=~/.vimbackup//,/tmp
 set directory=~/.vimswap//,/tmp
