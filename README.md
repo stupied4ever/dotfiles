@@ -1,4 +1,4 @@
-thoughtbot dotfiles
+Stupied4ever dotfiles
 ===================
 
 Requirements
