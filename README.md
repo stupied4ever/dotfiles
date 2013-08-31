@@ -31,7 +31,7 @@ What's in it?
 ATTENTION:
 
 As I am using MacOS I needed to install a vim with +clipboard, so i created
-one alinas vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+one alias to vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 If its not useful to you, feel free to remove in zsh/config/aliases
 
 
