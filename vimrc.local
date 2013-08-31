@@ -132,9 +132,6 @@ set smartindent
 filetype indent on    " Enable filetype-specific indenting
 filetype plugin on    " Enable filetype-specific plugins
 
-" Copy to clipboard
-set clipboard=unnamed
-
 " Gambis para registradores funcionarem no mac
 noremap ä "a
 noremap ë "e
