@@ -34,4 +34,9 @@ for name in *; do
   fi
 done
 
+if [ ! -e "$HOME/.vim/bundle/vundle" ]; then
+  mkdir -p "$HOME/.vim/bundle"
+  git clone http://github.com/gmarik/vundle
+fi
+
 vim +BundleInstall +qa! && clear && echo "Done! :)"
