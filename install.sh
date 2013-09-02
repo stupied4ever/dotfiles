@@ -40,8 +40,7 @@ if [ ! -e "$HOME/.vim/bundle/vundle" ]; then
 fi
 
 if [ ! -e "$HOME/.oh-my-zsh" ]; then
-  mkdir -p "$HOME/.oh-my-zsh"
-  https://github.com/stupied4ever/oh-my-zsh "$HOME/.oh-my-zsh"
+  git clone https://github.com/stupied4ever/oh-my-zsh "$HOME/.oh-my-zsh"
 fi
 
 vim +BundleInstall +qa! && clear && echo "Done! :)"
