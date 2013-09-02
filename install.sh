@@ -36,7 +36,7 @@ done
 
 if [ ! -e "$HOME/.vim/bundle/vundle" ]; then
   mkdir -p "$HOME/.vim/bundle"
-  git clone http://github.com/gmarik/vundle
+  git clone http://github.com/gmarik/vundle "$HOME/.vim/bundle/vundle"
 fi
 
 vim +BundleInstall +qa! && clear && echo "Done! :)"
