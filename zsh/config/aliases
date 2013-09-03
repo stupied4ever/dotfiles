@@ -8,4 +8,4 @@ alias e="$EDITOR"
 alias v="$VISUAL"
 
 # Vim with +clipboard
-alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+# alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'

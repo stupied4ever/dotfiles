@@ -22,6 +22,7 @@ source ~/.zsh/config/keybinds
 # Plugins
 source ~/.zsh/config/plugins
 
+# Remove when leave MAC
 export LANG="en_US.UTF-8"
 
 # Load oh-my-zsh
