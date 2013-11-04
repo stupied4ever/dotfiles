@@ -2,7 +2,7 @@
 vnoremap y ygv<esc>
 
 " Copy and paste to system clipboard
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " Toggle paste mode
 set pastetoggle=<leader>p
