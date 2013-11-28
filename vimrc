@@ -16,3 +16,5 @@ source ~/.vim/config/plugins/nerdtree.vim
 source ~/.vim/config/plugins/tabular.vim
 source ~/.vim/config/plugins/vim-buffergator.vim
 source ~/.vim/config/plugins/vimux.vim
+
+:command! Navarro :execute 'silent !~/workspace/pessoal/mk-preview/preview.sh < % > /dev/null 2>&1' | execute 'redraw!'

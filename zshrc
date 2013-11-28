@@ -28,3 +28,5 @@ export LANG="en_US.UTF-8"
 # Load oh-my-zsh
 ZSH=$HOME/.oh-my-zsh
 source $ZSH/oh-my-zsh.sh
+
+export PATH=$HOME/.gem/ruby/2.0.0/bin:$PATH
